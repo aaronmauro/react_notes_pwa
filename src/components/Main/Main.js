@@ -6,7 +6,7 @@ const mainpage = () => {
         return(
           <div>
             <Container>
-            <h1>Welcome to Manifest!</h1>
+            <h1>Notes</h1>
             <Card>
               <ListGroup variant="flush">
                 <ListGroup.Item>
