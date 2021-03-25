@@ -9,7 +9,6 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "bootswatch": "^4.6.0",
-    "gh-pages": "^3.1.0",
     "localbase": "^0.7.4",
     "package": "^1.0.1",
     "prop-types": "^15.7.2",
@@ -40,7 +39,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d main -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy":"npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -59,5 +59,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
