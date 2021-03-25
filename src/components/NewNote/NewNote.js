@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Form, Button, Container} from 'react-bootstrap';
 import uniqid from 'uniqid';
 import Localbase from 'localbase';
+import PWAPrompt from 'react-ios-pwa-prompt';
 
 let db = new Localbase('db');
 // Object { title: "", text: "", id: "" }
@@ -29,6 +30,7 @@ const Newnote = ({setNotes}) => {
     //console.log(setNotes)
     return (
         <Container>
+        <PWAPrompt />
         <Form onSubmit={saveNote}>
             <Form.Group>
                 <Form.Label>New Title</Form.Label>
