@@ -45,7 +45,7 @@ const Newnote = ({setNotes}) => {
                 placeholder="Note" />
             </Form.Group>
         </Form>
-        <Button onClick={saveNote} variant="info" type="submit">
+        <Button onClick={saveNote} type="submit">
             Save
         </Button>
         </Container>

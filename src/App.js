@@ -6,7 +6,7 @@ import Boards from './components/Boards/Boards';
 import NewNote from './components/NewNote/NewNote';
 import MainPage from './components/Main/Main';
 import 'react-bootstrap';
-import 'bootswatch/dist/lux/bootstrap.min.css'; // quick style provided here
+import 'bootswatch/dist/superhero/bootstrap.min.css'; // quick style provided here
 import './App.css';
 
 function App() {
@@ -20,12 +20,12 @@ function App() {
       </Layout>
       <Switch>
         <Route exact path="/">
-          <MainPage/>
-        </Route>
-        <Route path="/newnote">
           <NewNote setNotes={setNotes}/>
         </Route>
-        <Route path="/boards">
+        <Route path="/about">
+          <MainPage/>
+        </Route>
+        <Route path="/notes">
           <Boards notes={notes} setNotes={setNotes}/>
         </Route>
       </Switch>
