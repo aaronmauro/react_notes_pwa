@@ -19,13 +19,13 @@ function App() {
         <NavExpand />
       </Layout>
       <Switch>
-        <Route exact path="/react_notes_pwa/">
+        <Route exact path="/">
           <NewNote setNotes={setNotes}/>
         </Route>
-        <Route path="/react_notes_pwa/about">
+        <Route path="/about">
           <MainPage/>
         </Route>
-        <Route path="/react_notes_pwa/notes">
+        <Route path="/notes">
           <Boards notes={notes} setNotes={setNotes}/>
         </Route>
       </Switch>
