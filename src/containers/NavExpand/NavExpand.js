@@ -11,9 +11,9 @@ class NavExpand extends Component {
     {
         return(
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="/react_notes_pwa/">N</Navbar.Brand>
+                <Navbar.Brand href="/react_notes_pwa">N</Navbar.Brand>
                 <Nav className="mr-auto">
-                <Nav.Link href="/react_notes_pwa/">New</Nav.Link>
+                <Nav.Link href="/react_notes_pwa">New</Nav.Link>
                 <Nav.Link href="/react_notes_pwa/notes">Notes</Nav.Link>
                 <Nav.Link href="/react_notes_pwa/about">About</Nav.Link>
                 </Nav>
