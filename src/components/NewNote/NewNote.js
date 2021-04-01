@@ -3,6 +3,8 @@ import {Form, Button, Container} from 'react-bootstrap';
 import uniqid from 'uniqid';
 import Localbase from 'localbase';
 import PWAPrompt from 'react-ios-pwa-prompt';
+import Lottie from 'react-lottie';
+import AtomLoader from '../../assets/lotties/cube.json';
 
 let db = new Localbase('db');
 // Object { title: "", text: "", id: "" }
@@ -27,9 +29,23 @@ const Newnote = ({setNotes}) => {
         }
     }
 
+    const lottieOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: AtomLoader,
+        rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice"
+        }
+      };
+
     //console.log(setNotes)
     return (
         <Container>
+        <Lottie
+        options={lottieOptions}
+        height={200}
+        width={200}
+        />
         <PWAPrompt />
         <Form onSubmit={saveNote}>
             <Form.Group>
