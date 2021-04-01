@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react_notes_pwa/static/css/main.04c799e1.chunk.css",
-    "main.js": "/react_notes_pwa/static/js/main.015c80c4.chunk.js",
-    "main.js.map": "/react_notes_pwa/static/js/main.015c80c4.chunk.js.map",
+    "main.css": "/react_notes_pwa/static/css/main.253a773f.chunk.css",
+    "main.js": "/react_notes_pwa/static/js/main.301c6a1a.chunk.js",
+    "main.js.map": "/react_notes_pwa/static/js/main.301c6a1a.chunk.js.map",
     "runtime-main.js": "/react_notes_pwa/static/js/runtime-main.c7cdb438.js",
     "runtime-main.js.map": "/react_notes_pwa/static/js/runtime-main.c7cdb438.js.map",
     "static/css/2.c9cec710.chunk.css": "/react_notes_pwa/static/css/2.c9cec710.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/react_notes_pwa/service-worker.js",
     "service-worker.js.map": "/react_notes_pwa/service-worker.js.map",
     "static/css/2.c9cec710.chunk.css.map": "/react_notes_pwa/static/css/2.c9cec710.chunk.css.map",
-    "static/css/main.04c799e1.chunk.css.map": "/react_notes_pwa/static/css/main.04c799e1.chunk.css.map",
+    "static/css/main.253a773f.chunk.css.map": "/react_notes_pwa/static/css/main.253a773f.chunk.css.map",
     "static/js/2.ca66b168.chunk.js.LICENSE.txt": "/react_notes_pwa/static/js/2.ca66b168.chunk.js.LICENSE.txt",
     "static/media/trash.53420c56.svg": "/react_notes_pwa/static/media/trash.53420c56.svg"
   },
@@ -22,7 +22,7 @@
     "static/js/runtime-main.c7cdb438.js",
     "static/css/2.c9cec710.chunk.css",
     "static/js/2.ca66b168.chunk.js",
-    "static/css/main.04c799e1.chunk.css",
-    "static/js/main.015c80c4.chunk.js"
+    "static/css/main.253a773f.chunk.css",
+    "static/js/main.301c6a1a.chunk.js"
   ]
 }
