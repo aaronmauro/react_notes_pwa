@@ -4,7 +4,7 @@ import uniqid from 'uniqid';
 import Localbase from 'localbase';
 import PWAPrompt from 'react-ios-pwa-prompt';
 import Lottie from 'react-lottie';
-import AtomLoader from '../../assets/lotties/cube.json';
+import CubeLoader from '../../assets/lotties/cube.json';
 
 let db = new Localbase('db');
 // Object { title: "", text: "", id: "" }
@@ -32,7 +32,7 @@ const Newnote = ({setNotes}) => {
     const lottieOptions = {
         loop: true,
         autoplay: true,
-        animationData: AtomLoader,
+        animationData: CubeLoader,
         rendererSettings: {
         preserveAspectRatio: "xMidYMid slice"
         }
@@ -57,7 +57,7 @@ const Newnote = ({setNotes}) => {
             </Form.Group>
             <Form.Group>
             <Form.Label>New Note</Form.Label>
-            <Form.Control onChange={handleInputChange} 
+            <Form.Control onBlur={saveNote} onChange={handleInputChange} 
                 value={form.text} as="textarea" 
                 rows={10} name="text" type="text" 
                 placeholder="Note" />

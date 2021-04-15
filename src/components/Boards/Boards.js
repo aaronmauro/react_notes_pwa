@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {Card,Container} from 'react-bootstrap';
 import './Boards.css';
 import Localbase from 'localbase';
+import trash from '../../assets/icons/trash.svg';
 
 const Boards = ({ notes, setNotes }) => {
 
@@ -29,7 +30,7 @@ const Boards = ({ notes, setNotes }) => {
             {notes.map((note) => (
             <Card border="warning" className="cardBoard">
                     <Card.Body>
-                    <i className="icon-trash float-right" onClick={() => deleteBoard(note.id, db)}></i>
+                    <img src={trash} className="trash float-right" onClick={() => deleteBoard(note.id, db)}></img>
                     <Card.Title>{note.title}</Card.Title>
                     <Card.Text>
                         {note.text}
